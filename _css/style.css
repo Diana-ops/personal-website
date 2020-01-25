@@ -1,0 +1,65 @@
+/*Header*/
+
+div {
+	display: inline-block;
+	width: 100%;
+	height: 600px;
+	margin-top: -10px;
+	margin-left: -10px;
+	background-image: url(../_pictures/fundo.jpg);
+}
+
+.icon{
+	position: absolute;
+	flex: left;
+	width: 60px;
+	height: 75px;
+	margin-top: 3%;
+	margin-left: 4%;
+}
+
+/*Menu*/
+ul{
+	display: inline-flex;
+	height: 10%;
+	width: 60%;
+	margin-left: 35%;
+
+	color: black;
+	text-align: center;
+	font-size: 18px;
+}
+
+li {
+	padding: 3%;
+}
+
+li:hover{
+	/*Im stop here, Im trying to put a inline of color orange below of each <li> element*/
+}
+
+p, ul{
+	font-family: 'Raleway', sans-serif;
+}
+
+.name{
+	font-size: 60px;
+	text-align: center;
+	background-color: rgb(255,192,0);
+
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 33%;
+}
+
+.job{
+	font-size: 50px;
+	text-align: justify;
+
+	margin-top: -3%;
+	margin-left: 20%;
+}
+
+strong{
+	color: rgb(255,192,0);
+}
