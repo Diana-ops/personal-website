@@ -30,6 +30,7 @@ Currently, my goal is only to build a website for show my general informations, 
 - To build a page with the informations about my CV.
 - To build a page with a list of my other projects.
 - To build a responsive website. 
+- Let the website with languages portuguese and english.
 
 In future, I pretend to improve my website with:
 
