@@ -1,6 +1,61 @@
 @media screen and (max-width: 650px){
-	img{
+
+	/*Menu*/
+	.icon{
+		display: inline-block;
+		position: absolute;
+		flex: left;
+		width: 60px;
+		height: 75px;
+		margin-top: 5%;
+		margin-left: 75%;
+	}
+	.iconOut{
+		width: 40px;
+		height: 35px;
+		margin-top: 5%;
+		margin-left: 8%;
+	}
+
+	.menuTopics{
 		display: none;
 	}
-	
+
+	/*Title*/
+
+	.name{
+		width: 80%;
+		margin-top: 20%;
+	}
+	strong{
+		display: flex;
+		margin-left: 10%;
+	}
+	.job{
+		margin-top: 20%;
+	}
+
+	/*Perfis*/
+	.menuPerfils{
+		display: inline;
+		align-items: center;
+	}
+
+	.imgPerfil{
+		width: 50%;
+		height: 12%;
+	}
+
+	.haker{
+		width: 230px;
+		height: 100px;
+	}
 }
+
+@media screen and (min-width: 651px){
+
+	li {
+		padding: 5%;
+	}
+}
+

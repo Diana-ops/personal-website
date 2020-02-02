@@ -1,25 +1,30 @@
 /*Header*/
-
-div {
+.Header {
 	display: inline-block;
 	width: 100%;
-	height: 600px;
+	height: 650px;
 	margin-top: -10px;
 	margin-left: -10px;
 	background-image: url(../_pictures/fundo.jpg);
 }
 
-.icon{
-	position: absolute;
-	flex: left;
-	width: 60px;
-	height: 75px;
-	margin-top: 3%;
-	margin-left: 4%;
+.menuMobile{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: green;
+	margin-top: -10px;
+	margin-left: -10px;
+
+}
+
+.icon, .iconOut{
+	display: none;
 }
 
 /*Menu*/
-ul{
+
+.menuTopics{
 	display: inline-flex;
 	height: 10%;
 	width: 60%;
@@ -62,4 +67,40 @@ p, ul{
 
 strong{
 	color: rgb(255,192,0);
+}
+
+
+/*Perfils*/
+.perfils{
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+	height: 350px;
+	margin-left: -10px;
+}
+
+.perfilsText{
+	text-align: center;
+	font-size: 30px;
+}
+
+.menuPerfils{
+	display: inline-flex;
+}
+
+.imgPerfil{
+	width: 180px;
+	height: 100px;
+}
+
+.haker{
+	width: 230px;
+	height: 100px;
+}
+
+/*Sobre mim*/
+.sobreMin{
+	width: 100%;
+	height: 200px;
+	background-color: rgb(228,228,288);
 }
