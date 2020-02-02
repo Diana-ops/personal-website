@@ -27,30 +27,74 @@
       <!-- Google Founts - Releway -->
       <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
 
+      <!-- Put the width igual to width to your device , "initial" define the incial zoom -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
       <link rel="icon", href="img/icon.png">
     </head>
     <body>
+      <!--Header-->
+      <div class="Header">
+        <img class="icon" id="iconId" src="../_pictures/icon.png">
+        <img class="iconOut" id="iconIdOut" src="../_pictures/iconOut.png">
 
-      <div>
-
-        <img class="icon" src="../_pictures/icon.png">
-
-        <ul type="none">
+        <ul type="none" class="menuTopics" id="menuTopics">
           <li>Sobre mim</li>
-          <li>Projetos</li>
+          <li>Currículo</li>
           <li>Entrar em Contato</li>
-          <li>Enviar Projeto</li>
-
         </ul>
 
         <p class="name">Diana Regina</p>
         <p class="job"> <strong>Front-End </strong>Developer JR</p>
+      </div>
+      <!--Perfils--->
+      <div class="perfils">
+        <p class="perfilsText"> Confira meus Perfils </p>
 
-
+        <ul type="none" class="menuPerfils">
+          <li><img class="imgPerfil" id="hithub" src="../_pictures/github.png"></li>
+          <li><img class="imgPerfil" id="linkdin" src="../_pictures/linkdin.png"></li>
+          <li><img class="imgPerfil" id="uri" src="../_pictures/uri.png"></li>
+          <li><img class="haker" id="hithub" src="../_pictures/hacker.png"></li>
+        </ul>
+      </div>
+      <!--Sobre mim--->
+      <div class="sobreMin">
+        <p class="olaTText">Olá,</p>
+        <p class="sobremimText">Um pouco sobre mim</p>
+        <img src="../_pictures/diana.jpg">
       </div>
 
+      <div class="menuMobile">
+        ok
+      </div>
 
-        
+      <script type="text/javascript">
+
+            
+            var captureIcon = document.getElementById("iconId");
+            var captureIconOut = document.getElementById("iconIdOut");
+            var captureMenu = document.getElementById("menuTopics");
+
+            captureIcon.onclick = function(){
+              captureMenu.style.display = 'inline'
+              captureIconOut.style.display = 'inline'
+              captureIcon.style.display = 'none'
+
+            }
+
+            captureIconOut.onclick = function(){
+              captureMenu.style.display = 'none'
+              captureIconOut.style.display = 'none'
+              captureIcon.style.display = 'inline-block'
+            }
+            
+
+      </script>
+
+
  
     </body>
 </html>
