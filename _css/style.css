@@ -1,10 +1,13 @@
+body{
+	background-color: rgb(255,192,0);
+}
 /*Header*/
 .Header {
 	display: inline-block;
 	width: 100%;
 	height: 650px;
 	margin-top: -10px;
-	margin-left: -10px;
+
 	background-image: url(../_pictures/fundo.jpg);
 }
 
@@ -12,9 +15,10 @@
 	display: none;
 	width: 100%;
 	height: 100%;
-	background-color: green;
 	margin-top: -10px;
-	margin-left: -10px;
+
+	background-color: green;
+	
 
 }
 
@@ -35,11 +39,11 @@
 	font-size: 18px;
 }
 
-li {
+.LImenuPerfils {
 	padding: 3%;
 }
 
-li:hover{
+.LImenuPerfils:hover{
 	/*Im stop here, Im trying to put a inline of color orange below of each <li> element*/
 }
 
@@ -48,24 +52,26 @@ p, ul{
 }
 
 .name{
-	font-size: 60px;
-	text-align: center;
-	background-color: rgb(255,192,0);
 
 	margin-top: 10%;
 	margin-left: 10%;
 	width: 33%;
+
+	font-size: 60px;
+	text-align: center;
+	background-color: rgb(255,192,0); /*Orange*/
 }
 
 .job{
-	font-size: 50px;
-	text-align: justify;
 
 	margin-top: -3%;
 	margin-left: 20%;
+
+	font-size: 50px;
+	text-align: justify;
 }
 
-strong{
+.boldName{
 	color: rgb(255,192,0);
 }
 
@@ -74,20 +80,36 @@ strong{
 .perfils{
 	display: inline-block;
 	width: 100%;
+	height: 40%;
+
+	/*Centralizado*/
+	padding: 0;
+	text-align: center;
+	align-items: center;
+
 	background-color: white;
-	height: 350px;
-	margin-left: -10px;
+	
 }
 
 .perfilsText{
 	text-align: center;
+	margin-top: 5%;
+
 	font-size: 30px;
+	font-weight: bold;
 }
 
 .menuPerfils{
 	display: inline-flex;
 }
 
+/*Imgs*/
+.imgPerfil, .haker{
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.imgPerfil:hover, .haker:hover{
+	margin-top: -10px;
+}
 .imgPerfil{
 	width: 180px;
 	height: 100px;
@@ -99,8 +121,86 @@ strong{
 }
 
 /*Sobre mim*/
+
+/*Div*/
 .sobreMin{
+	display: flex;
 	width: 100%;
-	height: 200px;
-	background-color: rgb(228,228,288);
+	height: 40%;
+
+	background-color: #dcdeda;
+}
+
+/*Img*/
+.sobreMimImg{
+	height: 40%;
+	width: 300px;
+}
+
+.olaTText{
+	font-size: 60px;
+	font-weight: bold;
+
+	margin-top: 10%;
+	margin-left: 15%;
+}
+.sobremimText{
+	width: 45%;
+	font-size: 50px;
+	margin-left: -5%;
+	height: 17%;
+	margin-top: 17%;
+
+	text-align: center;
+	background-color: rgb(255,192,0);
+}
+
+/*About me - Content*/
+.sobreMinContent{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+
+	background-color: white;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.column-1, .column-2{
+	width: 40%;
+	margin-left: 5%;
+	line-height: 35px;
+}
+.column-2{
+	margin-left: 5%;
+}
+
+/*Quatro Quadros*/
+.quatroQuadros{
+	display: grid;
+	grid-template-columns: repeat(1, 4fr); /*Defind 2 columns*/
+
+	background-color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.DIVquatroQuadros{
+	width: 40%;
+	margin-left: 3%;
+}
+.DIVquatroQuadros-2{
+	width: 40%;
+	margin-left: 50%;
+	margin-top: -364px;
+}
+
+/*Lines*/
+.horizonLine{
+	position: absolute;
+	width: 95%;
+	margin-left: -20px;
+	margin-top: -190px;
 }

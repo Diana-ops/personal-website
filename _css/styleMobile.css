@@ -27,7 +27,12 @@
 		width: 80%;
 		margin-top: 20%;
 	}
-	strong{
+
+	.boldName, .job{
+		text-align: left;
+		align-items: left;
+	}
+	.boldName{
 		display: flex;
 		margin-left: 10%;
 	}
@@ -36,9 +41,17 @@
 	}
 
 	/*Perfis*/
+	.perfils{
+
+	}
+	.imgPerfil:hover, .haker:hover{
+		margin-top: 0;
+		margin-left: 10%;
+		}
 	.menuPerfils{
 		display: inline;
 		align-items: center;
+
 	}
 
 	.imgPerfil{
@@ -49,6 +62,41 @@
 	.haker{
 		width: 230px;
 		height: 100px;
+	}
+
+	/*Some mim*/
+	/*Div*/
+	.sobreMin{
+		display: inline-block;
+	}
+
+	.olaTText{
+		text-align: left;
+	}
+	.sobremimText{
+		text-align: center;
+		width: 90%;
+
+		font-size: 40px;
+		margin-left: 5%;
+		margin-top: 0%;
+	}
+	.sobreMimImg{
+		height: 400px;
+		width: 300px;
+		margin-left: 15%;
+
+	}
+
+	/*About me - Content*/
+	.sobreMinContent{
+		display: inline-block;
+	}
+
+	.column-1, .column-2{
+		width: 90%;
+		margin-left: 5%;
+		line-height: 35px;
 	}
 }
 
