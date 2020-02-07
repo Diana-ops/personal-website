@@ -3,6 +3,7 @@
   <img src="https://user-images.githubusercontent.com/46378210/73127556-ed7e0e00-3fa0-11ea-8a73-82d8ec7747be.PNG">
 </p>
 
+**Latest version of the website**: https://dianareginafrontend.netlify.com/ 
 ## What is app? 
 
 <p align="justify">
