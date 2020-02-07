@@ -1,10 +1,16 @@
 body{
 	background-color: white;
 }
+
+a{
+	text-decoration-color: none;
+	text-decoration-line: none;
+	text-decoration-style: none;
+}
 /*Header*/
 .Header {
 	display: inline-block;
-	width: 100%;
+	width: 107%;
 	height: 650px;
 	margin-top: -10px;
 	margin-left: -10px;
@@ -32,23 +38,22 @@ body{
 .menuTopics{
 	display: inline-flex;
 	height: 10%;
-	width: 60%;
-	margin-left: 35%;
+	width: 100%;
+	margin-left: 25%;
 
 	color: black;
 	text-align: center;
 	font-size: 18px;
 }
 .menuTopics li{
-	padding: 5%;
+	padding: 3%;
+	border-bottom-size: 1px;
 }
 .menuTopics li:hover{
-	        border-bottom-size: 1px;
-        border-bottom-style: dotted;
+        border-bottom-style: solid;
         border-bottom-color: orange;
         color: orange;
-        font-weight: bold;
-        
+           
 }
 
 .LImenuPerfils {
@@ -89,7 +94,7 @@ p, ul, li{
 /*Div*/
 .sobreMin{
 	display: flex;
-	width: 100%;
+	width: 107%;
 	height: 40%;
 
 	background-color: #dcdeda;
@@ -243,7 +248,7 @@ p, ul, li{
 footer{
 	display: inline-table;
 	height: 50px;
-	width: 100%;
+	width: 107%;
 	margin-top: 2%;
 	margin-left: -10px;
 	margin-bottom: -10px;

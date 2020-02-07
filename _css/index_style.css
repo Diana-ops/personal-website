@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body
+{
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+/*Layout for Desktop*/
+@media only screen and (min-width: 700px) {
+
+}
+
+/*Layout for Mobile*/
+
+@media only screen and (max-width: 700px) {
+
+}
+
+/*Top Bar*/
+
+/*Put the topics side to side*/
+nav#menu {
+	display: block;
+}
+nav#menu ul {
+	position: absolute;
+	left: 300px;
+}
+nav#menu li {
+	display: inline-block;
+	padding: 20px; 
+    margin: -3px; 
+}
+
+div#head {
+	position: absolute;
+	height: 75px;
+	width: 1300px;
+	background: rgb(197,90,17); /*Marrom*/
+	top: -10px;
+	left: -10px;
+}
