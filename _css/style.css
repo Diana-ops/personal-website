@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(255,192,0);
+	background-color: white;
 }
 /*Header*/
 .Header {
@@ -7,6 +7,7 @@ body{
 	width: 100%;
 	height: 650px;
 	margin-top: -10px;
+	margin-left: -10px;
 
 	background-image: url(../_pictures/fundo.jpg);
 }
@@ -38,16 +39,24 @@ body{
 	text-align: center;
 	font-size: 18px;
 }
+.menuTopics li{
+	padding: 5%;
+}
+.menuTopics li:hover{
+	        border-bottom-size: 1px;
+        border-bottom-style: dotted;
+        border-bottom-color: orange;
+        color: orange;
+        font-weight: bold;
+        
+}
 
 .LImenuPerfils {
 	padding: 3%;
 }
 
-.LImenuPerfils:hover{
-	/*Im stop here, Im trying to put a inline of color orange below of each <li> element*/
-}
 
-p, ul{
+p, ul, li{
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -75,51 +84,6 @@ p, ul{
 	color: rgb(255,192,0);
 }
 
-
-/*Perfils*/
-.perfils{
-	display: inline-block;
-	width: 100%;
-	height: 40%;
-
-	/*Centralizado*/
-	padding: 0;
-	text-align: center;
-	align-items: center;
-
-	background-color: white;
-	
-}
-
-.perfilsText{
-	text-align: center;
-	margin-top: 5%;
-
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.menuPerfils{
-	display: inline-flex;
-}
-
-/*Imgs*/
-.imgPerfil, .haker{
-	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-}
-.imgPerfil:hover, .haker:hover{
-	margin-top: -10px;
-}
-.imgPerfil{
-	width: 180px;
-	height: 100px;
-}
-
-.haker{
-	width: 230px;
-	height: 100px;
-}
-
 /*Sobre mim*/
 
 /*Div*/
@@ -129,6 +93,7 @@ p, ul{
 	height: 40%;
 
 	background-color: #dcdeda;
+	margin-left: -10px;
 }
 
 /*Img*/
@@ -176,31 +141,120 @@ p, ul{
 .column-2{
 	margin-left: 5%;
 }
+/*For recrutadores*/
+.paraRecrutadores{
+	display: flex;
+	font-size: 50px;
+}
+
+.paraRecrutadores p{
+	margin-left: 10%;
+	margin-top: 8%;
+}
+.paraRecrutadores-S{
+	color: rgb(255,192,0);
+}
+.paraRecrutadores-IMG{
+	width: 20%;
+	margin-left: 20%;
+}
+
 
 /*Quatro Quadros*/
 .quatroQuadros{
 	display: grid;
-	grid-template-columns: repeat(1, 4fr); /*Defind 2 columns*/
+	grid-template-columns: repeat(4, 4fr); /*Defind 2 columns*/
 
 	background-color: white;
-	font-size: 20px;
 	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+
 }
 
-.DIVquatroQuadros{
-	width: 40%;
-	margin-left: 3%;
-}
-.DIVquatroQuadros-2{
-	width: 40%;
-	margin-left: 50%;
-	margin-top: -364px;
+.quatroQuadros-1, .quatroQuadros-3{
+	background-color: rgb(255,192,0);
+	border-radius: 2%;
+	color: white;
 }
 
-/*Lines*/
-.horizonLine{
-	position: absolute;
-	width: 95%;
-	margin-left: -20px;
-	margin-top: -190px;
+
+.LIAquatroQuadros-2, .LIAquatroQuadros-4{
+	font-weight: bold;
+	color: rgb(255,192,0);
 }
+
+.LIAquatroQuadros-1, .LIAquatroQuadros-3{
+	font-weight: bold;
+}
+
+.quatroQuadros div:hover{
+	background-color: #f6f7f7;
+	color: rgb(255,192,0);
+	transition: 0.3s;
+}
+/*Perfils*/
+.perfils{
+	display: inline-block;
+	width: 100%;
+	height: 40%;
+
+	/*Centralizado*/
+	padding: 0;
+	text-align: center;
+	align-items: center;
+
+	background-color: white;
+	
+}
+
+.perfilsText{
+	text-align: center;
+	margin-top: 5%;
+
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.menuPerfils{
+	display: inline-flex;
+}
+
+/*Imgs*/
+.LI-git, .LI-linkdin{
+	width: 35%;
+}
+.LI-git{
+	margin-left: 20%;
+	margin-top: -5%;
+}
+
+.LI-linkdin{
+	margin-left: -100%;
+	margin-top: -5%;
+}
+.LI-URI, .LI-hack{
+	width: 85%;
+	margin-left: -400%;
+	margin-top: -7%;
+}
+/*Rodapé*/
+footer{
+	display: inline-table;
+	height: 50px;
+	width: 100%;
+	margin-top: 2%;
+	margin-left: -10px;
+	margin-bottom: -10px;
+
+	background-color: black; /*Orange*/
+	text-align: center;
+	font-size: 20px;
+}
+footer p{
+	margin-top: 2%;
+	color: white;
+}
+
+
