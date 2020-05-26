@@ -4,8 +4,8 @@ import 'antd/dist/antd.css';
 import { GithubOutlined, MediumOutlined, LinkedinOutlined } from "@ant-design/icons";
 import avatar from "../../assets/avatar.jpg"
 import { Wrapper, DivAvatar, Infos, Principal, Icons,
-		Avatar, Name, Profession, SubPrincipal, 
-		Info, Title, Content } from "./style"
+		Avatar, Name, Profession, SubPrincipal, TitlePrincipal,
+		Info, Title, Content, Ancora } from "./style"
 
 function Header(props) {
 
@@ -17,17 +17,17 @@ function Header(props) {
 
 			<Principal>
 				<SubPrincipal>
-					<Title>
+					<TitlePrincipal>
 						<Name>Diana Regina</Name>
 						<Profession>Web Developer & Front-end</Profession>
-					</Title>
+					</TitlePrincipal>
 					<Icons>
-						<GithubOutlined/>
-						<MediumOutlined/>
-						<LinkedinOutlined/>
+						<Ancora className="ancora" href="https://github.com/Diana-ops"><GithubOutlined/>GITHUB</Ancora>
+						<Ancora className="ancora" href="https://medium.com/@dianareginadr19"><MediumOutlined/>MEDIUM</Ancora>
+						<Ancora className="ancora" href="https://www.linkedin.com/in/diana-regina-a96840173/"><LinkedinOutlined/>LINKEDIN</Ancora>
 					</Icons>
 				</SubPrincipal>
-				<hr/>
+				<hr style={{ width: "80%", borderColor: "white"}}/>
 				<Infos>
 					<Info>
 						<Title>Location</Title>

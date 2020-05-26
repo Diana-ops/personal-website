@@ -1,8 +1,21 @@
 import styled from 'styled-components';
 
 export const Paragraphy = styled.p`
-	text-align="justify"
+	text-align:justify;
+	background-color: white;
+	margin-left: 3%;
+	margin-right: 3%;
 `
-export const TitleIntroduction = styled.span`
+export const TitleIntroduction = styled.h2`
 	color: gray;
+	font-weight: bold;
+	background-color: #f9f9f9;
+	padding: 3%;
+	text-align: left;
+	display: block;
+    font-size: 1.4em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 `
