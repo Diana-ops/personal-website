@@ -1,8 +1,8 @@
 import React from 'react'
 //import { Card } from 'antd';
 //import 'antd/dist/antd.css';
-import { Title, Index, Content } from "./style"
-import { TitleIntroduction, Paragraphy } from "../introduction/style"
+import { Title, Index, Content, Paragraphy } from "./style"
+import { TitleIntroduction } from "../introduction/style"
 import { Wrapper } from "../header/style"
 
 function Expertise(props) {
@@ -10,7 +10,7 @@ function Expertise(props) {
 	return (
 		<Wrapper>
 			<TitleIntroduction>VALORES</TitleIntroduction>
-
+			
 			<Content>
 				<Index>01</Index>
 				<Title>GIT E GITHUB</Title>

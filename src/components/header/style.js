@@ -8,10 +8,6 @@ export const Wrapper = styled.section`
 	font-family: Lato;
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-
-	@media screen and (min-width: 900px){
-		grid-template-columns: repeat(2, 1fr);
-	}
 `
 export const DivAvatar = styled.div`
 `
@@ -26,10 +22,6 @@ export const Principal = styled.div`
 export const SubPrincipal = styled.div`
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-
-	@media screen and (min-width: 900px){
-		grid-template-columns: repeat(2, 1fr);
-	}
 `
 export const TitlePrincipal = styled.div`
 
@@ -63,10 +55,6 @@ export const Ancora = styled.a`
 export const Infos = styled.div`
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-
-	@media screen and (min-width: 900px){
-		grid-template-columns: repeat(2, 1fr);
-	}
 
 `
 export const Info = styled.div`

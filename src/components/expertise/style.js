@@ -16,4 +16,13 @@ export const Content = styled.p`
 export const Index = styled.h3`
 	color: orange;
 	font-weight: bold;
+` 
+export const Paragraphy = styled.h3`
+	text-align:justify;
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 3%;
+	font-family: Lato;
+	color: gray;
+	font-size: 1rem;
 `

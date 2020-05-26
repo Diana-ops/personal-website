@@ -3,8 +3,11 @@ import styled from 'styled-components';
 export const Paragraphy = styled.p`
 	text-align:justify;
 	background-color: white;
-	margin-left: 3%;
+	margin-left: 5%;
 	margin-right: 3%;
+	font-size: 1rem;
+	font-family: Lato;
+	color: gray;
 `
 export const TitleIntroduction = styled.h2`
 	color: gray;
