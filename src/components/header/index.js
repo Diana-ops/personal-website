@@ -22,9 +22,15 @@ function Header(props) {
 						<Profession>Web Developer & Front-end</Profession>
 					</TitlePrincipal>
 					<Icons>
-						<Ancora className="ancora" href="https://github.com/Diana-ops"><GithubOutlined/>GITHUB</Ancora>
-						<Ancora className="ancora" href="https://medium.com/@dianareginadr19"><MediumOutlined/>MEDIUM</Ancora>
-						<Ancora className="ancora" href="https://www.linkedin.com/in/diana-regina-a96840173/"><LinkedinOutlined/>LINKEDIN</Ancora>
+						<Ancora className="ancora" href="https://github.com/Diana-ops">
+							<GithubOutlined style={{ fontSize: "40px" }}/>
+						</Ancora>
+						<Ancora className="ancora" href="https://medium.com/@dianareginadr19">
+							<MediumOutlined style={{ fontSize: "40px" }}/>
+						</Ancora>
+						<Ancora className="ancora" href="https://www.linkedin.com/in/diana-regina-a96840173/">
+							<LinkedinOutlined style={{ fontSize: "40px" }}/>
+						</Ancora>
 					</Icons>
 				</SubPrincipal>
 				<hr style={{ width: "80%", borderColor: "white"}}/>
