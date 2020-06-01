@@ -6,7 +6,7 @@
 
 :star: **New version (v2.0.0) of the website in deploy**: https://dianaregina.netlify.app/ 
 
-:memo: **New version of the website in repository**: https://github.com/Diana-ops/portifolio
+:memo: **New version of the website in repository**: https://github.com/Diana-ops/portfolio
 
 ## What is app? 
 
