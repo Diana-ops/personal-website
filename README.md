@@ -1,9 +1,12 @@
 <p align="center">
   <h1 align="center">Personal Website</h1>
   <img src="https://user-images.githubusercontent.com/46378210/73127556-ed7e0e00-3fa0-11ea-8a73-82d8ec7747be.PNG">
+  <img src="http://img.shields.io/static/v1?label=vers%C3%A3o%20do%20projeto&message=v1.0.0&color=red&style=for-the-badge&logo=github">
 </p>
 
-**Latest version of the website**: https://dianareginafrontend.netlify.com/ 
+**New version of the website in deploy**: https://dianaregina.netlify.app/ 
+**New version of the website in repository**: https://github.com/Diana-ops/portifolio
+
 ## What is app? 
 
 <p align="justify">
